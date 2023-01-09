@@ -3,7 +3,7 @@ public class Lesson3 {
     ConsoleWriter consoleWriter = new ConsoleWriter();
 //point 1
 
-    int Reverse(int num) {
+    int reverse(int num) {
         snum = String.valueOf(num);
         StringBuilder rev = new StringBuilder(snum);
         rev.reverse();
@@ -14,7 +14,7 @@ public class Lesson3 {
 
 //    point 2
 
-    int Min(int num) {
+    int min(int num) {
         snum = String.valueOf(num);
         for (int i = 0; i < 10; i++) {
             if (snum.indexOf("" + i) > -1) {
@@ -24,7 +24,7 @@ public class Lesson3 {
         }
         return 0;
     }
-    int Max(int num){
+    int max(int num){
         snum = String.valueOf(num);
         for (int i = 9; i > -1; i--) {
             if (snum.indexOf("" + i) > -1) {
@@ -36,7 +36,7 @@ public class Lesson3 {
     }
 
  //point 3
-    void Duplicate(int num) {
+    void duplicate(int num) {
         snum = String.valueOf(num);
         boolean duplicate = true;
         for (int i = 0; i < 10; i++) {
@@ -49,7 +49,7 @@ public class Lesson3 {
     }
 
 // point 4
-    int Descending(int num) {
+    int descending(int num) {
         String match = "0123456789";
         String result = String.valueOf(num);
         for (int l = match.length(); l > 2; l--) {

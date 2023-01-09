@@ -8,24 +8,26 @@ public class Main {
         calculator.calculate(12,23, "sum");
 
         Lesson3 lesson3 = new Lesson3();
+        int num = 1567034952;
 
-        lesson3.reverse(123456);
-        lesson3.min(123456);
-        lesson3.max(123456);
-        lesson3.duplicate(1234156);
-        lesson3.descending(123654789);
+        lesson3.reverse(num);
+        lesson3.min(num);
+        lesson3.max(num);
+        lesson3.duplicate(num);
+        lesson3.descending(num);
 
         Lesson4 lesson4 = new Lesson4();
+        int[] arr = {3,2,31,516,122,23,344};
 
-        lesson4.max(new int[]{3,2,31,516,122,23,344});
-        lesson4.min(new int[]{3,2,31,516,122,23,344});
-        lesson4.even(new int[]{3,2,31,516,122,23,344});
-        lesson4.odd(new int[]{3,2,31,516,122,23,344});
-        lesson4.longest(new int[]{3,2,31,516,122,23,344});
-        lesson4.shortest(new int[]{3,2,31,516,122,23,344});
-        lesson4.increase(new int[]{3,2,31,516,122,23,344});
-        lesson4.palindromes(new int[]{3,2,31,516,122,23,344});
-        lesson4.bubble(new int[]{3,2,31,516,122,23,344});
+        lesson4.max(arr);
+        lesson4.min(arr);
+        lesson4.even(arr);
+        lesson4.odd(arr);
+        lesson4.longest(arr);
+        lesson4.shortest(arr);
+        lesson4.increase(arr);
+        lesson4.palindromes(arr);
+        lesson4.bubble(arr);
 
         Lesson5 lesson5 = new Lesson5();
 

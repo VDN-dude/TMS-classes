@@ -6,7 +6,7 @@ public class Lesson4 {
     int i = 0;
 
     //point 1 (Min & Max numbers)
-    int[] max(int[] arr) {
+     int max(int[] arr) {
         int max = Integer.MIN_VALUE;
         for (i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
@@ -14,9 +14,9 @@ public class Lesson4 {
             }
         }
         consoleWriter.writeln(max);
-        return null;
+        return 0;
     }
-    int[] min(int[] arr){
+    int min(int[] arr){
         int min = Integer.MAX_VALUE;
         for (i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
@@ -24,28 +24,28 @@ public class Lesson4 {
             }
         }
         consoleWriter.writeln(min);
-        return null;
+        return 0;
     }
 
     //point 2 (Evens & Odds numbers)
-    int[] even(int[] arr) {
+    int even(int[] arr) {
         for (i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {
                 consoleWriter.write(arr[i] + ", ");
             }
         }
         consoleWriter.writeln("");
-        return null;
+        return 0;
     }
 
-    int[] odd(int[] arr) {
+    int odd(int[] arr) {
         for (i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
                 consoleWriter.write(arr[i] + ", ");
             }
         }
         consoleWriter.writeln("");
-        return null;
+        return 0;
     }
 
     //point 3 (Shortest & Longest numbers)
@@ -53,7 +53,7 @@ public class Lesson4 {
     int longest = 0;
     int start = 0;
 
-    int[] longest(int[] arr) {
+    int longest(int[] arr) {
         for (i = 0; i < arr.length; i++) {
             String stringLenght = String.valueOf(Math.abs(arr[i]));
             int lenght = stringLenght.length();
@@ -63,10 +63,10 @@ public class Lesson4 {
             }
         }
         consoleWriter.writeln(longest);
-        return null;
+        return 0;
     }
 
-    int[] shortest(int[] arr) {
+    int shortest(int[] arr) {
         start = Integer.MAX_VALUE;
         for (i = 0; i < arr.length; i++) {
             String stringLenght = String.valueOf(Math.abs(arr[i]));
@@ -77,11 +77,11 @@ public class Lesson4 {
             }
         }
         consoleWriter.writeln(shortest);
-        return null;
+        return 0;
     }
 
     // point 4 (Display numbers that are in ascending order)
-    int[] increase(int[] arr) {
+    int increase(int[] arr) {
         int[] arr2 = new int[arr.length];
         System.arraycopy(arr, 0, arr2, 0, arr.length);
         Arrays.sort(arr2);
@@ -104,11 +104,11 @@ public class Lesson4 {
             }
         }
         consoleWriter.writeln("");
-        return null;
+        return 0;
     }
 
     //point 5 (Palindromes)
-    int[] palindromes(int[] arr) {
+    int palindromes(int[] arr) {
         boolean palindromes = false;
         for (i = 0; i < arr.length; i++) {
             String snum = String.valueOf(Math.abs(arr[i]));
@@ -123,11 +123,11 @@ public class Lesson4 {
             }
         }
         consoleWriter.writeln("");
-        return null;
+        return 0;
     }
 
     //point with *
-    int[] bubble(int[] arr) {
+    int bubble(int[] arr) {
         boolean sorted = true;
         int sort = 0;
         while (sorted) {
@@ -142,6 +142,6 @@ public class Lesson4 {
             }
         }
         consoleWriter.writeln(Arrays.toString(arr));
-        return null;
+        return 0;
     }
 }

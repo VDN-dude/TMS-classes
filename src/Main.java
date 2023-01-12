@@ -17,17 +17,17 @@ public class Main {
         lesson3.descending(num);
 
         Lesson4 lesson4 = new Lesson4();
-        int[] arr = {3,2,31,516,122,23,344};
+        //234
 
-        lesson4.max(arr);
-        lesson4.min(arr);
-        lesson4.even(arr);
-        lesson4.odd(arr);
-        lesson4.longest(arr);
-        lesson4.shortest(arr);
-        lesson4.increase(arr);
-        lesson4.palindromes(arr);
-        lesson4.bubble(arr);
+        lesson4.max(1, 2, 3, 4, 5);
+        lesson4.min(2, 3, 5, 123, 456, 657);
+        lesson4.even(2, 3, 5, 123, 456, 657);
+        lesson4.odd(2, 3, 5, 123, 456, 657);
+        lesson4.longest(2, 3, 5, 123, 456, 657);
+        lesson4.shortest(2, 3, 5, 123, 456, 657);
+        lesson4.increase(2, 3, 5, 123, 456, 657);
+        lesson4.palindromes(2, 3, 5, 123, 456, 657);
+        lesson4.bubble(2, 3, 5, 123, 456, 657);
 
         Lesson5 lesson5 = new Lesson5();
 

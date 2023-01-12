@@ -8,13 +8,12 @@ public class Main {
         calculator.calculate(12,23, "sum");
 
         Lesson3 lesson3 = new Lesson3();
-        int num = 1567034952;
 
-        lesson3.reverse(num);
-        lesson3.min(num);
-        lesson3.max(num);
-        lesson3.duplicate(num);
-        lesson3.descending(num);
+        lesson3.reverse(2147483646);
+        lesson3.min(7034952);
+        lesson3.max(1534952);
+        lesson3.duplicate(15670952);
+        lesson3.descending(15670352);
 
         Lesson4 lesson4 = new Lesson4();
 

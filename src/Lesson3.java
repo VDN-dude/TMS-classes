@@ -7,8 +7,7 @@ public class Lesson3 {
         snum = String.valueOf(num);
         StringBuilder rev = new StringBuilder(snum);
         rev.reverse();
-        num = Integer.parseInt(String.valueOf(rev));
-        consoleWriter.writeln(num);
+        consoleWriter.writeln(String.valueOf(rev));
         return 0;
     }
 
@@ -49,7 +48,7 @@ public class Lesson3 {
     }
 
 // point 4
-    int descending(int num) {
+    void descending(int num) {
         String match = "0123456789";
         String result = String.valueOf(num);
         for (int l = match.length(); l > 2; l--) {
@@ -63,6 +62,5 @@ public class Lesson3 {
             }
         }
         consoleWriter.writeln(" ");
-        return 0;
     }
 }

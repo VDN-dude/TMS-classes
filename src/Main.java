@@ -17,7 +17,6 @@ public class Main {
         lesson3.descending(num);
 
         Lesson4 lesson4 = new Lesson4();
-        //234
 
         lesson4.max(1, 2, 3, 4, 5);
         lesson4.min(2, 3, 5, 123, 456, 657);
